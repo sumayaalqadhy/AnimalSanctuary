@@ -52,5 +52,17 @@ fun main() {
 
   println("Foxie has a temperature of ${foxiesHealthCheck["temperature"]} and is feeling ${foxiesHealthCheck["mood"]}.")
 
+  timeSpent ++ 
 
+  responsibilitiesComplete ++
+
+  println("You've now completed ${responsibilitiesComplete} / ${responsibilities.size} responsibilities.")
+
+  if (timeSpent <= totalShiftTime && responsibilitiesComplete == responsibilities.size) {
+    println("Congratulations on a great job of completing the responsibilities on time.")
+  } else if (timeSpent >= totalShiftTime && responsibilitiesComplete == responsibilities.size) {
+    println("All responsibilities were complete but with overtime.")
+  } else {
+    println("All of the responsibilities were not complete and took extra time.")
+  }
 }
