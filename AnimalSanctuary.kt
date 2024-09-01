@@ -26,4 +26,9 @@ fun main() {
   println("Feeding Foxie...")
   chimpsHaveEaten["Foxie"] = true
 
+  timeSpent ++
+  responsibilitiesComplete ++
+
+  println("All chimps have now been fed! You've completed ${responsibilitiesComplete} / ${responsibilities.size} responsibilities.")
+
 }
