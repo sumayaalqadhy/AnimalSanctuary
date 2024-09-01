@@ -12,4 +12,18 @@ fun main() {
 
   var chimpsHaveEaten = mutableMapOf("Bonnie" to false, "Jubilee" to false, "Frodo" to false, "Foxie" to false)
 
+  println("First, ${responsibilities[0]}.")
+
+  println("Feeding Bonnie...")
+  chimpsHaveEaten["Bonnie"] = true
+
+  println("Feeding Jubilee...")
+  chimpsHaveEaten["Jubilee"] = true
+
+  println("Feeding Frodo...")
+  chimpsHaveEaten["Frodo"] = true
+
+  println("Feeding Foxie...")
+  chimpsHaveEaten["Foxie"] = true
+
 }
