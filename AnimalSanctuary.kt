@@ -39,4 +39,18 @@ fun main() {
 
   println(randomGame)
 
+  timeSpent ++
+
+  responsibilitiesComplete ++
+
+  println("Each chimp has now played a game of $randomGame! You've completed ${responsibilitiesComplete} / ${responsibilities.size} responsibilities.")
+
+  println("Next, ${responsibilities[2]}.")
+
+  foxiesHealthCheck.put("temperature", 32.7)
+  foxiesHealthCheck.put("mood", "happy")
+
+  println("Foxie has a temperature of ${foxiesHealthCheck["temperature"]} and is feeling ${foxiesHealthCheck["mood"]}.")
+
+
 }
