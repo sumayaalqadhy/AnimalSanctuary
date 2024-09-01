@@ -8,4 +8,8 @@ fun main() {
 
   val totalShiftTime = 4
 
+  var foxiesHealthCheck = mutableMapOf<String, Any?>()
+
+  var chimpsHaveEaten = mutableMapOf("Bonnie" to false, "Jubilee" to false, "Frodo" to false, "Foxie" to false)
+
 }
