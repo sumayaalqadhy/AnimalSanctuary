@@ -31,4 +31,12 @@ fun main() {
 
   println("All chimps have now been fed! You've completed ${responsibilitiesComplete} / ${responsibilities.size} responsibilities.")
 
+  println("Next, ${responsibilities[1]}.")
+
+  var games = mutableSetOf("tug-of-war with a blanket", "catch and throw", "number game")
+
+  var randomGame = games.random()
+
+  println(randomGame)
+
 }
